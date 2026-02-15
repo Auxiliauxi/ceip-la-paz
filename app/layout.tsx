@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import { Inter, DM_Serif_Display } from 'next/font/google'
 
 import './globals.css'
+export const dynamic = 'force-static'
+
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const dmSerifDisplay = DM_Serif_Display({ weight: '400', subsets: ['latin'], variable: '--font-dm-serif' })
